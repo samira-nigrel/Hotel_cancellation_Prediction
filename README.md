@@ -14,7 +14,9 @@ Quick Problem Overview
 6. Feature Selection: Done
 7. Feature Engineering: Done
 8. EDA Questions: Done
-###Problem with Cancellations###
+
+Markup :  #### Problem with Cancellations####
+
 1. Customer accustomed to free cancellation policies
 2. Operational Problems
 3. Non accurate forecast
