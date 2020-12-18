@@ -1,6 +1,5 @@
 Hotel Cancellation Prediction
 
-[TOC]
 
 Executive Summary
 Our goal is to build a model able to classify a booking as canceled or not canceled. In order to do so, we used data from the Hotel Booking Demand Datasets. The dataset provides data from real bookings scheduled to arrive between July, 1st 2015 and August, 31st 2017 from two hotels in Portugal (a resort in the Algarve region (H1) and a hotel in the city of Lisbon (H2)). Booking data from both hotels share the same structure, with 31 variables describing the 40,060 observations of H1 and 79,330 observations of H2. For a detailed list and description of those variables refer to the data dictionary. The two hotel datasets were merged into one main dataframe. The dataframe was then cleaned making sure to address any null values, reformat certain features, and engineer new ones. Exploratory analysis included analysis of the cancellation target variable and its relation with other features. Data visualisation tools were used to identify trends and valuable insights from those analysis. A Random forest Classifier model was then used in order to identify the accuracy of the model. The models were evaluated, and conclusions and recommendations were derived to optimize occupancy, improve operations, and increase a hotel's revenue.
@@ -15,7 +14,7 @@ Quick Problem Overview
 7. Feature Engineering: Done
 8. EDA Questions: Done
 
-Markup :  #### Problem with Cancellations####
+Problem with Cancellations
 
 1. Customer accustomed to free cancellation policies
 2. Operational Problems
